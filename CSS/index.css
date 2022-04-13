@@ -8,14 +8,13 @@
 
 }
 /* 清除浮动*/
-.clearfix:before,.clearfix:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.clearfix:after{
-    clear: both;
-}
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
 /* 清除li标签前的小点点 */
 li{
     list-style: none;
@@ -177,4 +176,141 @@ h1{
     font-weight: 700;
     text-align: center;
     line-height: 40px;
+}
+/* 精品推荐 */
+.goods{
+    width: 1200px;
+    height: 60px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 8px;
+    /* 阴影 */
+    box-shadow: 0px 2px 3px 0px 
+    rgba(118, 118, 118, 0.2);
+}
+.goods h2{
+   float: left; 
+   margin-left: 38px;
+   margin-right: 36px;
+   color: #00a4ff;
+   line-height: 60px;
+}
+.goods li{
+    float: left; 
+}
+.goods li a{
+    line-height: 60px;
+    padding-left: 32px;
+    margin-right:26px;
+    color: #050505;
+    text-decoration: none;
+    border-left: #bfbfbf 1px solid;
+}
+.goods .xgxq{
+    line-height: 60px;
+    float: right;
+    color: #00a4ff;
+    text-decoration: none;
+margin-right:26px;
+}
+/* 精品课程 */
+.course{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 35px; 
+}
+.box1{
+    height: 40px;
+}
+.box1 h2{
+    float:left;
+    line-height: 40px;
+    font-size: 20px; 
+    color: #494949;
+}
+.box1 a{
+    float:right;
+    line-height: 40px;
+    text-decoration: none;
+    padding-right: 30px;
+    color: #494949;
+} 
+.box2{
+    overflow:auto
+}
+.box2 li{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+.box2 li a{
+    text-decoration: none;
+}
+.box2 li:nth-child(5n) {
+    margin-right: 0;
+}
+.box2 li h5{
+    margin: 25px 24px 20px 20px;
+    color: #000; 
+}
+
+.box2 li p{
+    margin: 20px 84px 0 24px;
+    font-size: 12px;
+    color:#dadada;
+}
+.box2 li p span{
+    color: #ff9159;
+}
+/* 版权 */
+.footer {
+    margin-top: 750px;
+
+    padding-top: 30px;
+
+    height: 417px;
+    background-color: #fff;
+}
+
+.footer .left {
+    float: left;
+}
+
+.footer .left  p {
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer .left a {
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.footer .right {
+    float: right;
+}
+
+.footer .right dl {
+    float: left;
+    margin-left: 120px;
+}
+.footer .right a {
+   text-decoration: none;
+   color: #333333;
+}
+.footer .right dl dt {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333333;
 }
