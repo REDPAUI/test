@@ -33,6 +33,14 @@ body{
     /* background-color: pink; */
     margin: 30px auto;
 }
+.box2 ul {
+    position: absolute;
+}
+.box2 ul li a .hot{
+    position: absolute;
+    left: 196px; 
+    top: 0;
+}
 /* logo */
 h1{
     float: left;
