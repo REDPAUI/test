@@ -322,3 +322,11 @@ margin-right:26px;
     margin-bottom: 15px;
     color: #333333;
 }
+.box2 ul {
+    position: absolute;
+}
+.box2 ul li a .hot{
+    position: absolute;
+    left: 196px; 
+    top: 0;
+}
